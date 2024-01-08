@@ -1,0 +1,46 @@
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.header{
+    height: 300px;
+    background-image: url('../images/Surovi.jpg');
+    /* background-image: url('../smiley-smile-happy.jpg'); */
+    /* background-image: url('grandma.jpg') ; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 200px;
+}
+.dolor{
+    border: 2px solid peru;
+    height: 60px;
+    display: block;
+}
+.blog{
+    margin: 20px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px blueviolet;
+}
+.incident{
+    border: 2px solid purple;
+    /* height will only work if there is display:block */
+    
+    /* height: 100px;
+    display: block; */
+
+    /* margin will only work for left and right if there is no display:block     */
+    margin: 20px;  
+    /* padding: 20px; */
+    display: inline-block;
+}
+li{
+    display: inline;
+}

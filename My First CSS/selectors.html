@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>   
+        *{
+            /* margin: 0; */
+        }
+        /* p{
+            color: red;
+        } */
+        #fifth, li{
+            font-size: 26px;
+        }
+        .holud, .yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight:800;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        .firstSpan{
+            color: aqua;
+        }
+        .blog{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p>My first <span class="firstSpan">line CSS</span></p>
+    <p class="yellow">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="yellow bold">My forth line CSS</p>
+    <p class="holud" id="fifth">My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+    <p>My seven line CSS</p>
+    <p>My eight line CSS</p>
+    <ol>
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li class = "bold holud">Class selector</li>
+        <li>Universal Selector</li>
+    </ol>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto sint quasi in id qui inventore ratione quidem nulla laborum dolor iste itaque sit aliquid quo, doloribus praesentium, perferendis maxime?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus quasi dolorem ratione quos? Amet aliquid voluptate itaque reprehenderit sapiente odio, dignissimos vero, quaerat vitae, quae non? Delectus, quod optio.</p>
+    </div>
+    <form action="">
+        <input type="text"><br>
+        <input type="password">
+    </form>
+</body>
+</html>
